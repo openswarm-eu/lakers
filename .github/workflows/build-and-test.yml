@@ -97,8 +97,8 @@ jobs:
       uses: hacspec/hax-actions@main
       with:
         # pin hax to known-working
-        hax_reference: "3c066cda73e708f085bf3212672a0e190f2d6e38"
-        fstar: v2025.03.25
+        hax_reference: "af86315233bb8fb2ea29d775e3c42b2cd50c725f"
+        fstar: v2025.06.20
 
     - name: Hax extract from lakers and lakers-shared into F* (Fstar)
       run: |

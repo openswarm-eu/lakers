@@ -9,6 +9,8 @@ lakers-ead-authz = { path = "../../ead/lakers-ead-authz", features = [ "log" ] }
 lakers-crypto = { path = "../../crypto/", features = [ "rustcrypto" ] }
 hexlit = "0.5.3"
 coap = { version = "0.13" }
+# coap pulls url pulls serde-std, so we also have to make serde_cbor (also in the dependency tree) use std
+serde_cbor = { version = "*", features = ["std"] }
 coap-lite = { version = "0.11.3" }
 
 std-embedded-nal = "^0.1.2"
