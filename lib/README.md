@@ -153,3 +153,9 @@ This software is licensed under the BSD 3-Clause License.
 
 Contributors are very welcome!
 Please take a look at the open issues, and pay attention to conventions used in the code-base, such as conventional commit messages and well-formatted Rust code.
+
+# Acknowledgement
+
+Part of the source code in this repository is developed within the frame and for the purpose of the OpenSwarm project. This project has received funding from the European Unioan's Horizon Europe Framework Programme under Grant Agreement No. 101093046.
+
+![OpenSwarm - Funded by the European Union](logos/ack.png)
